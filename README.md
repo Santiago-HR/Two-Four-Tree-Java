@@ -4,12 +4,12 @@ This repository contains a full Java implementation of a 2–3–4 tree (also ca
 
 The project also includes a driver program used to validate correctness and benchmark performance against Java’s built-in TreeSet.
 
-Contents
+📁 Repository Contents
 .
 ├── TwoFourTree.java   # Core 2–3–4 tree implementation
 └── App.java           # Test and benchmark driver
 
-Features
+✨ Features
 
 Supports insert, search, and delete operations
 
@@ -21,25 +21,29 @@ In-order traversal printing for debugging and verification
 
 Performance comparison with Java TreeSet
 
-Requirements
+✅ Requirements
 
 Java 8 or newer
 
-Compilation & Execution
-
-Compile both source files:
-
+🛠 Compilation & Execution
+Compile both source files
 javac TwoFourTree.java App.java
 
-
-Run the driver program:
-
+Run the driver program
 java App
 
-What the Program Does
+🔍 What the Program Does
 Static Correctness Test
 
-App.java first inserts a sequence of prime numbers into the tree, prints the tree in order, deletes selected values, and prints the tree again to verify correctness.
+App.java first:
+
+Inserts a sequence of prime numbers into the tree
+
+Prints the tree in sorted (in-order) form
+
+Deletes selected values
+
+Prints the tree again to verify correctness
 
 Performance Benchmark
 
@@ -59,16 +63,15 @@ Print timing results for comparison
 
 Benchmark sizes range from small (100 elements) to very large (millions of elements).
 
-Notes
+📝 Notes
 
-Large benchmark cases (millions of elements) may take significant time and memory.
+Large benchmark cases (millions of elements) may require significant time and memory
 
-You may comment out the largest test cases in main() if needed.
+You may comment out the largest test cases in main() if needed
 
-Output timings depend on hardware, JVM, and system load.
+Output timings depend on hardware, JVM, and system load
 
-Example Output (abridged)
-
+📊 Example Output (abridged)
 Static test: first few prime numbers:
 2
 3
