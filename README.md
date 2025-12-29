@@ -6,16 +6,6 @@ The project also includes a driver program used to **validate correctness** and 
 
 ---
 
-## Repository Structure
-
-```text
-.
-├── TwoFourTree.java   # Core 2–3–4 tree implementation
-└── App.java           # Test and benchmark driver
-```
-
----
-
 ## Features
 
 - Insert, search, and delete operations
